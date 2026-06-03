@@ -18,7 +18,17 @@
 html {
   scroll-behavior: smooth;
 }
+.profile-photo {
+  margin: 0;
+}
 
+.profile-photo img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  border: 1px solid var(--line);
+}
 body {
   margin: 0;
   color: var(--ink);
