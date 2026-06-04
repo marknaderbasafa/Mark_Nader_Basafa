@@ -371,6 +371,46 @@ footer {
   color: var(--ink);
   font: inherit;
 }
+.reading-month {
+  max-width: 760px;
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+}
+
+.reading-month summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.reading-item {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.book-cover {
+  display: block;
+  width: 120px;
+  height: auto;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+@media (max-width: 560px) {
+  .reading-item {
+    grid-template-columns: 90px minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .book-cover {
+    width: 90px;
+  }
+}
 
 .contact-form textarea {
   resize: vertical;
