@@ -161,14 +161,32 @@
       </p>
     </section>
 
-    <section id="contact" class="section contact">
-      <h2>Contact</h2>
-      <p>
-        For academic correspondence, collaboration, or requests concerning publications and manuscripts,
-        please write to:
-      </p>
-      <p><a class="email" href="mailto:markbasafa@gmail.com">markbasafa@gmail.com</a></p>
-    </section>
+<section id="contact" class="section contact">
+  <h2>Contact</h2>
+  <p>
+    For academic correspondence, collaboration, or requests concerning publications and manuscripts,
+    please use the form below.
+  </p>
+
+  <form class="contact-form" action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+    <label>
+      Your email
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      Message
+      <textarea name="message" rows="6" required></textarea>
+    </label>
+
+    <button class="button" type="submit">Send message</button>
+  </form>
+
+  <p class="note">
+    You may also write directly to:
+    <a class="email" href="mailto:markbasafa@gmail.com">markbasafa@gmail.com</a>
+  </p>
+</section>
   </main>
 
   <footer>
