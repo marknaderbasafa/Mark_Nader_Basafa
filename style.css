@@ -267,7 +267,34 @@ p {
 .publication h3 {
   max-width: 820px;
 }
+.reading-item {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  max-width: 760px;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
 
+.book-cover {
+  display: block;
+  width: 120px;
+  height: auto;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+@media (max-width: 560px) {
+  .reading-item {
+    grid-template-columns: 90px minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .book-cover {
+    width: 90px;
+  }
+}
 .timeline {
   display: grid;
   gap: 1rem;
