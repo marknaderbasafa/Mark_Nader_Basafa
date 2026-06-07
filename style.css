@@ -443,3 +443,6 @@ footer {
 .contact-form textarea {
   resize: vertical;
 }
+.thought-box li {
+  margin-bottom: 1.4rem;
+}
