@@ -411,6 +411,34 @@ footer {
     width: 90px;
   }
 }
+.thought-day {
+  max-width: 760px;
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+}
+
+.thought-day summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.thought-box {
+  margin: 1rem 0 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  background: #ffffff;
+  color: var(--ink);
+}
+
+.thought-box p {
+  margin: 0;
+  font-size: 1.08rem;
+  font-style: italic;
+}
+
 
 .contact-form textarea {
   resize: vertical;
