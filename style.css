@@ -21,7 +21,9 @@ html {
 .profile-photo {
   margin: 0;
 }
-
+.profile-photo {
+  margin: 0 0 1.5rem;
+}
 .profile-photo img {
   display: block;
   width: 100%;
