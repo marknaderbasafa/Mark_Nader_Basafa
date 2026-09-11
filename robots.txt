@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://marknaderbasafa.github.io/Mark_Nader_Basafa/sitemap.xml
